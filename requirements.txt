@@ -1,0 +1,28 @@
+# Direct dependencies, pinned to exact versions (Python 3.11.9, macOS arm64).
+# The full transitive set is frozen in requirements-lock.txt.
+#
+# macOS note: LightGBM needs OpenMP at runtime -> `brew install libomp`.
+
+# Data + classical ML
+numpy==2.4.6
+pandas==3.0.6
+scikit-learn==1.9.1
+lightgbm==4.7.0
+openpyxl==3.1.5          # reads data/raw/bmw_i3/Overview.xlsx
+pyarrow==26.0.0          # parquet for data/processed/
+
+# Neural model + TFLite export
+tensorflow==2.21.0
+keras==3.15.1
+
+# Plots + notebooks
+matplotlib==3.11.2
+jupyter==1.1.1
+
+# Inference API
+fastapi==0.143.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.1
+
+# Tests
+pytest==9.1.1

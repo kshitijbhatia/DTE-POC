@@ -1,0 +1,32 @@
+{
+  "cold_winter_trip": {
+    "trip_id": "TripB38",
+    "km_into_trip": 7.5,
+    "soc_now_pct": 56.59,
+    "samples_in_request": 724,
+    "expected_server_rate_pct_soc_per_km": 0.8738,
+    "expected_server_dte_km": 55.6,
+    "actual_rate_next_5km": 0.7179,
+    "actual_dte_km_if_next_5km_continued": 67.7
+  },
+  "warm_summer_trip": {
+    "trip_id": "TripA32",
+    "km_into_trip": 16.6,
+    "soc_now_pct": 74.6,
+    "samples_in_request": 349,
+    "expected_server_rate_pct_soc_per_km": 0.5173,
+    "expected_server_dte_km": 128.7,
+    "actual_rate_next_5km": 1.0,
+    "actual_dte_km_if_next_5km_continued": 66.6
+  },
+  "fast_highway_trip": {
+    "trip_id": "TripB23",
+    "km_into_trip": 7.4,
+    "soc_now_pct": 63.4,
+    "samples_in_request": 331,
+    "expected_server_rate_pct_soc_per_km": 0.77,
+    "expected_server_dte_km": 71.9,
+    "actual_rate_next_5km": 1.0593,
+    "actual_dte_km_if_next_5km_continued": 52.3
+  }
+}

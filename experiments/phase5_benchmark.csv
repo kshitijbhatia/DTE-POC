@@ -1,0 +1,5 @@
+option,test_mae_rate,test_mae_dte_km,model_size_kb,inference_ms_median,inference_ms_p95,round_trip_ms_median,round_trip_ms_p95,request_kb,works_offline,apk_increase,measured_on
+on-device TFLite: gru_fp32,0.2129019573660816,19.233875229248856,180.515625,0.05491598858498037,0.05583509264397435,,,,True,not measured (no app yet),"Darwin arm64, Python TFLite interpreter / localhost"
+on-device TFLite: gru_dynamic_int8,0.2129019573660816,19.233875229248856,180.515625,0.053916999604552984,0.05562498772633262,,,,True,not measured (no app yet),"Darwin arm64, Python TFLite interpreter / localhost"
+on-device TFLite: ridge_fp32,0.1918750773302986,19.010033660737857,1.05859375,0.000500003807246685,0.0005839974619448185,,,,True,not measured (no app yet),"Darwin arm64, Python TFLite interpreter / localhost"
+server: FastAPI + Ridge (sklearn),0.1918750776287959,19.01003383275848,2.8779296875,5.794375007099006,,8.158916505635716,12.308943442621963,126.986328125,False,0 (model not in app),"Darwin arm64, Python TFLite interpreter / localhost"

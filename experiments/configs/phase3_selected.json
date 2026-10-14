@@ -1,0 +1,17 @@
+{
+  "baseline_global_avg": {},
+  "baseline_trip_so_far": {},
+  "gru": {
+    "hidden": 16
+  },
+  "lgbm": {
+    "features": "set2",
+    "num_leaves": 3,
+    "n_estimators": 150,
+    "learning_rate": 0.03
+  },
+  "ridge": {
+    "features": "set2",
+    "alpha": 1000.0
+  }
+}
